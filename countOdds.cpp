@@ -1,3 +1,6 @@
+// Andrea Suarez (andreasuarezz)
+// Programa que lee 10 enteros y despliega qué porcentaje fueron impares
+
 #include <iostream>
 #include <format>
 using namespace std;

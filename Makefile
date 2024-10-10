@@ -6,4 +6,4 @@ installcompi:
 	conda install -y --solver=classic conda-forge::conda-libmamba-solver conda-forge::libmamba
 	conda-forge::libmambapy conda-forge::libarchive
 avg: avg.cpp
-	g++ -std=c++20 -o avg avg.cpp
+	g++ -o avg avg.cpp -std=c++20
